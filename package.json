@@ -4,7 +4,7 @@
   "description": "This is for CyberFramework.",
   "main": "index.js",
   "scripts": {
-    "test": "protractor ./CyberBank/Configuration/conf2.js"
+    "test": "protractor ./CyberBank/Configuration/conf2.js --suite regression"
   },
   "keywords": [
     "protractor"
@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "exceljs": "^1.6.3",
+    "jasmine-allure-reporter": "^1.0.2",
     "jasmine-data-provider": "^2.2.0",
     "jasmine-spec-reporter": "^4.2.1",
     "protractor": "^5.4.1",
